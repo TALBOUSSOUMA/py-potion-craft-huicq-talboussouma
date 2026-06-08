@@ -1,0 +1,71 @@
+ingredients,poids_pincee,prix,type
+Aigue-marine,32,15,Gemme
+Alexandrite,15,11,Gemme
+Azurite,17,20,Gemme
+Chrysobéryl,20,15,Gemme
+Grenat rouge,26,20,Gemme
+Grenat violet,27,12,Gemme
+Irtios,78,14,Gemme
+Ivoire,28,16,Gemme
+Lapis-Lazuli,27,18,Gemme
+Néphrite,34,11,Gemme
+Orprase,55,11,Gemme
+Péridot,93,10,Gemme
+Perle dorée,56,14,Gemme
+Perle noire,42,14,Gemme
+Pierre de lune,99,18,Gemme
+Quartz bleu,15,13,Gemme
+Sardonyx,32,16,Gemme
+Spinelle vert sombre,64,19,Gemme
+Spodumène,33,11,Gemme
+Topaze jaune d'or,34,15,Gemme
+Tourmaline blanche,97,20,Gemme
+Zircon,55,11,Gemme
+Amulette d'armure naturelle,42,20,Matériel magique
+Anneau du bélier,58,16,Matériel magique
+Baguette de sagesse du hibou,61,14,Matériel magique
+Bottes de sept lieues,52,12,Matériel magique
+Écu en acier,11,15,Matériel magique
+Élixir de nage,17,16,Matériel magique
+Épée bâtarde,91,18,Matériel magique
+Épée courte,75,16,Matériel magique
+Huile de ténèbres,57,10,Matériel magique
+Masse d'armes lourde,97,15,Matériel magique
+Onguent d'intemporalité,60,19,Matériel magique
+Parchemin divin,81,17,Matériel magique
+Parchemin profane,64,14,Matériel magique
+Potion d'agrandissement,73,13,Matériel magique
+Potion de flou,95,10,Matériel magique
+Potion de grâce féline,10,16,Matériel magique
+Potion de regain d'assurance,87,10,Matériel magique
+Potion de ruse du renard,23,18,Matériel magique
+Potion de sagesse du hibou,95,19,Matériel magique
+Urgrosh nain,51,11,Matériel magique
+Antidote,96,10,Matériel non magique
+Arbalète légère de maître,39,19,Matériel non magique
+Arc court de maître,18,15,Matériel non magique
+Armure à plaques,16,18,Matériel non magique
+Armure de cuir cloutée de maître,85,13,Matériel non magique
+Bâtonnet(s) fumigène(s),96,10,Matériel non magique
+Cadenas simple,45,10,Matériel non magique
+Carreaux,12,20,Matériel non magique
+Chemise de maille,68,14,Matériel non magique
+Cimeterre de maître,99,17,Matériel non magique
+Eau bénite,38,14,Matériel non magique
+Ecu en acier de maître,68,12,Matériel non magique
+Ecu en ébénite,18,12,Matériel non magique
+Epée longue de maître,66,20,Matériel non magique
+Gourdin de maître,32,10,Matériel non magique
+Grande hache de maître,63,18,Matériel non magique
+Hache de guerre naine de maître,30,20,Matériel non magique
+Hallebarde de maître,14,20,Matériel non magique
+Harnois,24,15,Matériel non magique
+Menottes de qualité suppérieure,100,10,Matériel non magique
+Pic de guerre léger de maître,78,19,Matériel non magique
+Pierre(s) à tonnerre,20,10,Matériel non magique
+Rapière de maître,23,18,Matériel non magique
+Rondache en ébénite,100,15,Matériel non magique
+Serpe de maître,99,16,Matériel non magique
+Elixir secret,78,20,Ingrédient secret
+Poudre secrète,33,11,Ingrédient secret
+Minéral secret,57,16,Ingrédient secret

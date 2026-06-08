@@ -1,0 +1,92 @@
+potion,diluant,prix,type_magie,inventeur,cout,benefice,competences,nb_potions_inv,competence
+Huile d'arme magique,Jus de fruit,291,Bleue,Dargor Black,0.57,290.43,Bienveillance;Sorcellerie,5,Bienveillance
+Huile d'arme magique,Jus de fruit,291,Bleue,Dargor Black,0.57,290.43,Bienveillance;Sorcellerie,5,Sorcellerie
+Huile de bénédiction d'arme,Bière,288,Blanche,Stefen Strange,6.17,281.83,Bienveillance;Soin,2,Bienveillance
+Huile de bénédiction d'arme,Bière,288,Blanche,Stefen Strange,6.17,281.83,Bienveillance;Soin,2,Soin
+Huile de gourdin magique,Eau,507,Noire,Merlin De Kamelott,27.2,479.8,Diabolisme;Sorcellerie,2,Diabolisme
+Huile de gourdin magique,Eau,507,Noire,Merlin De Kamelott,27.2,479.8,Diabolisme;Sorcellerie,2,Sorcellerie
+Huile de pierre magique,Vin,443,Blanche,Gandalf Rogue,0.57,442.43,Bienveillance;Soin,5,Bienveillance
+Huile de pierre magique,Vin,443,Blanche,Gandalf Rogue,0.57,442.43,Bienveillance;Soin,5,Soin
+Huile de ténèbres,Vin,874,Blanche,Gandalf Rogue,54.48,819.52,Bienveillance;Soin,5,Bienveillance
+Huile de ténèbres,Vin,874,Blanche,Gandalf Rogue,54.48,819.52,Bienveillance;Soin,5,Soin
+Potion d'agrandissement,Vin,499,Rouge,Panoramix Bl'ack,21.0,478.0,Charisme;Diabolisme;Invocateur,5,Charisme
+Potion d'agrandissement,Vin,499,Rouge,Panoramix Bl'ack,21.0,478.0,Charisme;Diabolisme;Invocateur,5,Diabolisme
+Potion d'agrandissement,Vin,499,Rouge,Panoramix Bl'ack,21.0,478.0,Charisme;Diabolisme;Invocateur,5,Invocateur
+Potion d'aide,Jus de fruit,872,Bleue,Inconnu,9.19,862.81,Bienveillance;Sorcellerie,6,Bienveillance
+Potion d'aide,Jus de fruit,872,Bleue,Inconnu,9.19,862.81,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion d'alignement indétectable,Eau,690,Bleue,Tom Jedusor,37.33,652.67,Bienveillance;Sorcellerie,6,Bienveillance
+Potion d'alignement indétectable,Eau,690,Bleue,Tom Jedusor,37.33,652.67,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion d'armure de mage,Eau,455,Blanche,Gandalf Rogue,83.0,372.0,Bienveillance;Soin,5,Bienveillance
+Potion d'armure de mage,Eau,455,Blanche,Gandalf Rogue,83.0,372.0,Bienveillance;Soin,5,Soin
+Potion de bouclier de la foi,Eau,897,Rouge,Panoramix Bl'ack,37.0,860.0,Charisme;Diabolisme;Invocateur,5,Charisme
+Potion de bouclier de la foi,Eau,897,Rouge,Panoramix Bl'ack,37.0,860.0,Charisme;Diabolisme;Invocateur,5,Diabolisme
+Potion de bouclier de la foi,Eau,897,Rouge,Panoramix Bl'ack,37.0,860.0,Charisme;Diabolisme;Invocateur,5,Invocateur
+Potion de délivrance de la paralysie,Eau,616,Bleue,Severus Rogue,20.9,595.1,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de délivrance de la paralysie,Eau,616,Bleue,Severus Rogue,20.9,595.1,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de détection faussée,Bière,969,Noire,Inconnu,58.0,911.0,Diabolisme;Sorcellerie,6,Diabolisme
+Potion de détection faussée,Bière,969,Noire,Inconnu,58.0,911.0,Diabolisme;Sorcellerie,6,Sorcellerie
+Potion de flou,Vin,939,Bleue,Severus Rogue,48.14,890.86,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de flou,Vin,939,Bleue,Severus Rogue,48.14,890.86,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de force de taureau,Jus de fruit,933,Bleue,Tom Jedusor,23.06,909.94,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de force de taureau,Jus de fruit,933,Bleue,Tom Jedusor,23.06,909.94,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion de grâce féline,Jus de fruit,412,Bleue,Dargor Black,40.1,371.9,Bienveillance;Sorcellerie,5,Bienveillance
+Potion de grâce féline,Jus de fruit,412,Bleue,Dargor Black,40.1,371.9,Bienveillance;Sorcellerie,5,Sorcellerie
+Potion de lévitation,Vin,571,Bleue,Severus Rogue,29.6,541.4,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de lévitation,Vin,571,Bleue,Severus Rogue,29.6,541.4,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de morsure magique,Bière,313,Bleue,Tom Jedusor,15.1,297.9,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de morsure magique,Bière,313,Bleue,Tom Jedusor,15.1,297.9,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion de passage sans traces,Vin,622,Bleue,Severus Rogue,4.26,617.74,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de passage sans traces,Vin,622,Bleue,Severus Rogue,4.26,617.74,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de pattes d'araignée,Eau,768,Bleue,Tom Jedusor,2.79,765.21,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de pattes d'araignée,Eau,768,Bleue,Tom Jedusor,2.79,765.21,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion de peau d'écorce,Bière,320,Bleue,Severus Rogue,49.86,270.14,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de peau d'écorce,Bière,320,Bleue,Severus Rogue,49.86,270.14,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de protection contre la loi,Eau,696,Bleue,Tom Jedusor,2.33,693.67,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de protection contre la loi,Eau,696,Bleue,Tom Jedusor,2.33,693.67,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion de protection contre le bien,Bière,653,Bleue,Inconnu,0.98,652.02,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de protection contre le bien,Bière,653,Bleue,Inconnu,0.98,652.02,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion de protection contre le chaos,Jus de fruit,894,Rouge,Panoramix Bl'ack,51.5,842.5,Charisme;Diabolisme;Invocateur,5,Charisme
+Potion de protection contre le chaos,Jus de fruit,894,Rouge,Panoramix Bl'ack,51.5,842.5,Charisme;Diabolisme;Invocateur,5,Diabolisme
+Potion de protection contre le chaos,Jus de fruit,894,Rouge,Panoramix Bl'ack,51.5,842.5,Charisme;Diabolisme;Invocateur,5,Invocateur
+Potion de protection contre le mal,Jus de fruit,965,Noire,Elias De Kelliwic’h,32.67,932.33,Diabolisme;Sorcellerie,2,Diabolisme
+Potion de protection contre le mal,Jus de fruit,965,Noire,Elias De Kelliwic’h,32.67,932.33,Diabolisme;Sorcellerie,2,Sorcellerie
+Potion de protection contre les projectiles,Bière,227,Noire,Merlin De Kamelott,51.0,176.0,Diabolisme;Sorcellerie,2,Diabolisme
+Potion de protection contre les projectiles,Bière,227,Noire,Merlin De Kamelott,51.0,176.0,Diabolisme;Sorcellerie,2,Sorcellerie
+Potion de ralentissement du poison,Eau,146,Bleue,Severus Rogue,1.16,144.84,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de ralentissement du poison,Eau,146,Bleue,Severus Rogue,1.16,144.84,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de rapetissement,Eau,314,Rouge,Panoramix Bl'ack,24.07,289.93,Charisme;Diabolisme;Invocateur,5,Charisme
+Potion de rapetissement,Eau,314,Rouge,Panoramix Bl'ack,24.07,289.93,Charisme;Diabolisme;Invocateur,5,Diabolisme
+Potion de rapetissement,Eau,314,Rouge,Panoramix Bl'ack,24.07,289.93,Charisme;Diabolisme;Invocateur,5,Invocateur
+Potion de regain d'assurance,Vin,696,Bleue,Dargor Black,26.07,669.93,Bienveillance;Sorcellerie,5,Bienveillance
+Potion de regain d'assurance,Vin,696,Bleue,Dargor Black,26.07,669.93,Bienveillance;Sorcellerie,5,Sorcellerie
+Potion de résistances aux énergies destructives,Jus de fruit,109,Bleue,Severus Rogue,30.0,79.0,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de résistances aux énergies destructives,Jus de fruit,109,Bleue,Severus Rogue,30.0,79.0,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de restauration partielle,Eau,842,Blanche,Gandalf Rogue,12.59,829.41,Bienveillance;Soin,5,Bienveillance
+Potion de restauration partielle,Eau,842,Blanche,Gandalf Rogue,12.59,829.41,Bienveillance;Soin,5,Soin
+Potion de ruse du renard,Eau,604,Noire,Inconnu,3.5,600.5,Diabolisme;Sorcellerie,6,Diabolisme
+Potion de ruse du renard,Eau,604,Noire,Inconnu,3.5,600.5,Diabolisme;Sorcellerie,6,Sorcellerie
+Potion de sagesse du hibou,Eau,821,Noire,Elias De Kelliwic’h,1.97,819.03,Diabolisme;Sorcellerie,2,Diabolisme
+Potion de sagesse du hibou,Eau,821,Noire,Elias De Kelliwic’h,1.97,819.03,Diabolisme;Sorcellerie,2,Sorcellerie
+Potion de sanctuaire,Jus de fruit,340,Blanche,Stefen Strange,20.27,319.73,Bienveillance;Soin,2,Bienveillance
+Potion de sanctuaire,Jus de fruit,340,Blanche,Stefen Strange,20.27,319.73,Bienveillance;Soin,2,Soin
+Potion de saut,Bière,228,Bleue,Severus Rogue,42.93,185.07,Bienveillance;Sorcellerie,10,Bienveillance
+Potion de saut,Bière,228,Bleue,Severus Rogue,42.93,185.07,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion de soins légers,Vin,205,Bleue,Dargor Black,7.0,198.0,Bienveillance;Sorcellerie,5,Bienveillance
+Potion de soins légers,Vin,205,Bleue,Dargor Black,7.0,198.0,Bienveillance;Sorcellerie,5,Sorcellerie
+Potion de soins modérés,Eau,533,Rouge,Panoramix Bl'ack,6.33,526.67,Charisme;Diabolisme;Invocateur,5,Charisme
+Potion de soins modérés,Eau,533,Rouge,Panoramix Bl'ack,6.33,526.67,Charisme;Diabolisme;Invocateur,5,Diabolisme
+Potion de soins modérés,Eau,533,Rouge,Panoramix Bl'ack,6.33,526.67,Charisme;Diabolisme;Invocateur,5,Invocateur
+Potion de splendeur de l'aigle,Bière,624,Blanche,Gandalf Rogue,22.73,601.27,Bienveillance;Soin,5,Bienveillance
+Potion de splendeur de l'aigle,Bière,624,Blanche,Gandalf Rogue,22.73,601.27,Bienveillance;Soin,5,Soin
+Potion de vision dans le noir,Vin,258,Bleue,Tom Jedusor,25.83,232.17,Bienveillance;Sorcellerie,6,Bienveillance
+Potion de vision dans le noir,Vin,258,Bleue,Tom Jedusor,25.83,232.17,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion d'endurance aux énergies destructives,Vin,368,Bleue,Inconnu,38.96,329.04,Bienveillance;Sorcellerie,6,Bienveillance
+Potion d'endurance aux énergies destructives,Vin,368,Bleue,Inconnu,38.96,329.04,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion d'endurance de l'ours,Vin,938,Bleue,Severus Rogue,17.33,920.67,Bienveillance;Sorcellerie,10,Bienveillance
+Potion d'endurance de l'ours,Vin,938,Bleue,Severus Rogue,17.33,920.67,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion d'invisibilité pour les animaux,Vin,560,Bleue,Inconnu,6.67,553.33,Bienveillance;Sorcellerie,6,Bienveillance
+Potion d'invisibilité pour les animaux,Vin,560,Bleue,Inconnu,6.67,553.33,Bienveillance;Sorcellerie,6,Sorcellerie
+Potion d'invisibilité pour les morts-vivants,Jus de fruit,407,Bleue,Severus Rogue,12.47,394.53,Bienveillance;Sorcellerie,10,Bienveillance
+Potion d'invisibilité pour les morts-vivants,Jus de fruit,407,Bleue,Severus Rogue,12.47,394.53,Bienveillance;Sorcellerie,10,Sorcellerie
+Potion d'invisibilité,Eau,265,Bleue,Dargor Black,25.73,239.27,Bienveillance;Sorcellerie,5,Bienveillance
+Potion d'invisibilité,Eau,265,Bleue,Dargor Black,25.73,239.27,Bienveillance;Sorcellerie,5,Sorcellerie

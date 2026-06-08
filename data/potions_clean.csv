@@ -1,0 +1,44 @@
+potion,ingredient_1,quantite_1,unite_1,temperature_1,ingredient_2,quantite_ 2,unite_2,temperature_2,ingredient_3,quantite_3,unite_3,temperature_3,ingredient_4,quantite_4,unite_4,temperature_4,diluant,prix
+Huile d'arme magique,Tourmaline blanche,3,Pincée,21,Baguette de sagesse du hibou,1,Pincée,7,Rondache en ébénite,3,Pincée,21,,2.0,,14.0,Jus de fruit,291
+Huile de bénédiction d'arme,Chrysobéryl,3,Soufle,126,Plumes de fenix,3,Nuage,21,Chemise de maille,2,Nuage,14,,2.0,,14.0,Bière,288
+Huile de gourdin magique,Quartz bleu,2,Once,14,Bottes de sept lieues,1,Soufle,42,Ecu en ébénite,2,Soufle,84,,2.0,,14.0,Eau,507
+Huile de pierre magique,Tourmaline blanche,3,Pincée,21,Baguette enchantée,3,Once,21,Hache de guerre naine de maître,3,Pincée,21,,2.0,,14.0,Vin,443
+Huile de ténèbres,Topaze jaune d'or,2,Pincée,14,Parchemin divin,3,Once,21,Menottes de qualité suppérieure,2,Nuage,14,,2.0,,14.0,Vin,874
+Potion d'agrandissement,Chrysobéryl,2,Poignée,42,Cheveux de sorcière,1,Pincée,7,Ecu en acier de maître,3,Nuage,21,,2.0,,14.0,Vin,499
+Potion d'aide,Perle noire,1,Poignée,21,Amulette d'armure naturelle,2,Pincée,14,Carreaux,3,Soufle,126,,2.0,,14.0,Jus de fruit,872
+Potion d'alignement indétectable,Néphrite,2,Nuage,14,Urgrosh nain,2,Nuage,14,Harnois,2,Once,14,,2.0,,14.0,Eau,690
+Potion d'armure de mage,Quartz bleu,2,Poignée,42,Amulette d'armure naturelle,3,Once,21,Hallebarde de maître,1,Poignée,21,,2.0,,14.0,Eau,455
+Potion de bouclier de la foi,Perle dorée,1,Poignée,21,Plumes de fenix,2,Soufle,84,Rondache en ébénite,2,Once,14,,2.0,,14.0,Eau,897
+Potion de délivrance de la paralysie,Péridot,1,Once,7,Potion de sagesse du hibou,3,Nuage,21,Eau bénite,3,Soufle,126,,2.0,,14.0,Eau,616
+Potion de détection faussée,Spinelle vert sombre,2,Once,14,Plumes de fenix,1,Poignée,21,Gourdin de maître,2,Once,14,,2.0,,14.0,Bière,969
+Potion de flou,Ivoire,3,Once,21,Plumes de fenix,2,Nuage,14,Rondache en ébénite,2,Pincée,14,,2.0,,14.0,Vin,939
+Potion de force de taureau,Orprase,2,Once,14,Écu en acier,2,Soufle,84,Ecu en ébénite,1,Pincée,7,,2.0,,14.0,Jus de fruit,933
+Potion de grâce féline,Lapis-Lazuli,2,Once,14,Urgrosh nain,2,Nuage,14,Armure de cuir cloutée de maître,1,Soufle,42,,2.0,,14.0,Jus de fruit,412
+Potion de lévitation,Grenat rouge,1,Once,7,Onguent d'intemporalité,3,Nuage,21,Pierre(s) à tonnerre,2,Pincée,14,,2.0,,14.0,Vin,571
+Potion de morsure magique,Alexandrite,1,Poignée,21,Potion de sagesse du hibou,1,Poignée,21,Hache de guerre naine de maître,1,Pincée,7,,2.0,,14.0,Bière,313
+Potion de passage sans traces,Néphrite,2,Nuage,14,Urgrosh nain,1,Soufle,42,Serpe de maître,3,Pincée,21,,2.0,,14.0,Vin,622
+Potion de pattes d'araignée,Orprase,2,Soufle,84,Anneau du bélier,1,Pincée,7,Arc court de maître,2,Pincée,14,Poudre secrète,1.0,Nuage,7.0,Eau,768
+Potion de peau d'écorce,Perle noire,3,Pincée,21,Parchemin divin,3,Poignée,63,Ecu en ébénite,2,Once,14,Poudre secrète,3.0,Pincée,21.0,Bière,320
+Potion de protection contre la loi,Lapis-Lazuli,3,Soufle,126,Baguette enchantée,3,Poignée,63,Serpe de maître,1,Soufle,42,,2.0,,14.0,Eau,696
+Potion de protection contre le bien,Irtios,2,Soufle,84,Cheveux de sorcière,1,Nuage,7,Menottes de qualité suppérieure,1,Pincée,7,,2.0,,14.0,Bière,653
+Potion de protection contre le chaos,Aigue-marine,3,Soufle,126,Huile de ténèbres,2,Once,14,Epée longue de maître,3,Poignée,63,,2.0,,14.0,Jus de fruit,894
+Potion de protection contre le mal,Quartz bleu,2,Once,14,Ongles de lutin,1,Nuage,7,Epée longue de maître,2,Nuage,14,,2.0,,14.0,Jus de fruit,965
+Potion de protection contre les projectiles,Aigue-marine,1,Once,7,Baguette enchantée,3,Soufle,126,Ecu en ébénite,3,Once,21,,2.0,,14.0,Bière,227
+Potion de ralentissement du poison,Orprase,2,Soufle,84,Potion de sagesse du hibou,1,Pincée,7,Bâtonnet(s) fumigène(s),1,Soufle,42,,2.0,,14.0,Eau,146
+Potion de rapetissement,Orprase,2,Soufle,84,Onguent d'intemporalité,2,Poignée,42,Armure de cuir cloutée de maître,2,Nuage,14,,2.0,,14.0,Eau,314
+Potion de regain d'assurance,Péridot,2,Poignée,42,Anneau du bélier,2,Soufle,84,Harnois,2,Poignée,42,,2.0,,14.0,Vin,696
+Potion de résistances aux énergies destructives,Perle noire,1,Once,7,Urgrosh nain,1,Once,7,Harnois,2,Nuage,14,,2.0,,14.0,Jus de fruit,109
+Potion de restauration partielle,Spodumène,2,Poignée,42,Parchemin profane,3,Soufle,126,Armure de cuir cloutée de maître,3,Pincée,21,,2.0,,14.0,Eau,842
+Potion de ruse du renard,Topaze jaune d'or,1,Soufle,42,Masse d'armes lourde,1,Nuage,7,Rondache en ébénite,1,Soufle,42,,2.0,,14.0,Eau,604
+Potion de sagesse du hibou,Azurite,1,Soufle,42,Bottes de sept lieues,2,Soufle,84,Harnois,1,Soufle,42,,2.0,,14.0,Eau,821
+Potion de sanctuaire,Perle dorée,2,Pincée,14,Parchemin profane,2,Pincée,14,Hallebarde de maître,2,Poignée,42,,2.0,,14.0,Jus de fruit,340
+Potion de saut,Néphrite,2,Once,14,Parchemin profane,2,Soufle,84,Hache de guerre naine de maître,2,Poignée,42,,2.0,,14.0,Bière,228
+Potion de soins légers,Orprase,2,Nuage,14,Baguette enchantée,2,Poignée,42,Menottes de qualité suppérieure,2,Nuage,14,,2.0,,14.0,Vin,205
+Potion de soins modérés,Topaze jaune d'or,2,Nuage,14,Élixir de nage,1,Soufle,42,Ecu en acier de maître,2,Soufle,84,,2.0,,14.0,Eau,533
+Potion de splendeur de l'aigle,Pierre de lune,2,Poignée,42,Baguette de sagesse du hibou,3,Soufle,126,Cadenas simple,2,Nuage,14,,2.0,,14.0,Bière,624
+Potion de vision dans le noir,Quartz bleu,3,Poignée,63,Élixir de nage,2,Nuage,14,Bâtonnet(s) fumigène(s),3,Soufle,126,,2.0,,14.0,Vin,258
+Potion d'endurance aux énergies destructives,Spinelle vert sombre,2,Once,14,Urgrosh nain,3,Pincée,21,Ecu en acier de maître,2,Soufle,84,,2.0,,14.0,Vin,368
+Potion d'endurance de l'ours,Grenat rouge,1,Nuage,7,Élixir de nage,1,Poignée,21,Ecu en ébénite,1,Poignée,21,,2.0,,14.0,Vin,938
+Potion d'invisibilité pour les animaux,Perle noire,2,Nuage,14,Masse d'armes lourde,2,Soufle,84,Gourdin de maître,3,Soufle,126,,2.0,,14.0,Vin,560
+Potion d'invisibilité pour les morts-vivants,Zircon,2,Poignée,42,Baguette de sagesse du hibou,3,Soufle,126,Arc court de maître,1,Pincée,7,,2.0,,14.0,Jus de fruit,407
+Potion d'invisibilité,Spinelle vert sombre,1,Pincée,7,Parchemin divin,3,Poignée,63,Cadenas simple,3,Pincée,21,,2.0,,14.0,Eau,265
