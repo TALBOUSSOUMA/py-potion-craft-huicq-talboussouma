@@ -1,155 +1,167 @@
-📜 Potion Craft
-🧙‍♂️ Introduction (pour tout public)
+# 🧪 Potion Craft — Dashboard Analytique
 
-Ce projet est un tableau de bord interactif destiné aux archivistes magiques. À partir d’un fichier Excel désorganisé contenant des potions, des ingrédients, des inventeurs et des types de magie, nous avons construit une application web qui permet de :
+> Tableau de bord interactif pour archivistes magiques, construit avec Python & Streamlit.
 
-    Visualiser les 10 potions les plus rentables.
+---
 
-    Explorer la hiérarchie (type de magie → compétence → potion) avec un diagramme en anneau.
+## 🧙 Présentation
 
-    Comparer les compétences des potions avec un diagramme radar.
+Ce projet transforme un fichier Excel désorganisé — contenant des potions, des ingrédients, des inventeurs et des types de magie — en un dashboard analytique entièrement interactif.
 
-    Détecter les ingrédients qui apparaissent souvent ensemble grâce à une heatmap.
+### Fonctionnalités
 
-    Voir les inventeurs et leurs potions sous forme de réseau (couleur = lignée, taille = nombre de potions).
+- 📊 **Top 10 des potions les plus rentables** — histogramme horizontal filtrable
+- 🌀 **Hiérarchie magique** — diagramme sunburst (type de magie → compétence → potion)
+- 🕸️ **Comparaison des compétences** — diagramme radar par potion
+- 🔥 **Cooccurrences d'ingrédients** — heatmap des ingrédients qui apparaissent souvent ensemble
+- 🔗 **Réseau d'inventeurs** — graphe interactif (couleur = lignée, taille = nombre de potions)
 
-L’application est entièrement interactive : on peut filtrer par type de magie ou par inventeur.
-🛠️ Choix techniques (pour un expert)
-Composant	Technologie	Justification
-Exploration & nettoyage	Pandas	Lecture des feuilles Excel, gestion des valeurs manquantes, transformation des colonnes. Robuste et adapté à des données tabulaires désorganisées.
-Conversion des unités	Dictionnaire Python	Déduit des relations 7 Pincée → 1 Soufle, 5 Soufle → 1 Nuage, etc. Pour obtenir un coût cohérent, nous sommes partis du principe que les prix dans liste-ingredients sont à l’once.
-Calcul du coût	Pandas + boucle	Chaque potion voit ses ingrédients convertis en onces, multipliés par le prix unitaire, puis sommés.
-Visualisations interactives	Plotly Express & Graph Objects	Intégration native avec Streamlit, graphiques dynamiques (zoom, survol, légendes).
-Graphe de réseau	NetworkX + Plotly	NetworkX construit le graphe, Plotly le rend interactif. Couleurs et tailles de nœuds contrôlées.
-Application web	Streamlit	Imposé par l’énoncé. Permet de transformer un script Python en dashboard sans connaissance HTML/CSS.
-Gestion de version	Git & GitHub	Travail en équipe, traçabilité, dépôt privé.
-🔧 Pipeline de traitement (étapes techniques)
-1. Extraction automatique (extraction.py)
+Tous les graphiques sont filtrables par **type de magie** ou par **inventeur** via la barre latérale.
 
-    Parcourt toutes les feuilles du fichier Excel.
+---
 
-    Affiche un rapport (dimensions, colonnes, valeurs manquantes, types).
+## 🚀 Lancement rapide
 
-    Permet de comprendre la structure sans rien coder en dur.
+### Prérequis
 
-2. Nettoyage générique (nettoyage.py)
+- Python 3.9 ou supérieur
 
-    Supprime les espaces dans les noms de colonnes.
+### Installation
 
-    Remplace les tirets par des underscores.
-
-    Remplit les valeurs manquantes :
-
-        "Inconnu" pour les chaînes.
-
-        Médiane pour les nombres.
-
-    Supprime les lignes en double.
-
-    Exporte chaque feuille nettoyée en CSV.
-
-3. Transformation métier (transformation.py)
-
-    Détection des feuilles par mot‑clé (find_sheet()) – pas de noms codés.
-
-    Passage en format long : une ligne par (potion, ingrédient) → recettes.csv.
-
-    Conversion des unités :
-
-        Relation déduite : 1 Once = 210 Pincées.
-
-        Dictionnaire unit_to_once :
-        "Pincée": 1/210, "Soufle": 7/210, etc.
-
-    Calcul du coût :
-    coût = quantite × (conversion en onces) × prix_ingredient_à_l_once.
-
-    Calcul du bénéfice :
-    bénéfice = prix_vente - coût.
-
-    Jointure avec les inventeurs et le type de magie.
-
-    Explosion des compétences (une potion peut avoir plusieurs compétences via ;).
-
-    Matrice de cooccurrence : pour chaque paire d’ingrédients, nombre de potions où ils apparaissent ensemble.
-
-    Export final : potions_final.csv, cooccurrences.csv, liste_inventeurs_clean.csv, etc.
-
-4. Dashboard Streamlit (app.py)
-
-    Chargement des CSV finaux.
-
-    Barre latérale avec deux filtres (type de magie, inventeur).
-
-    5 graphiques :
-
-        Histogramme horizontal (top 10 bénéfices).
-
-        Sunburst (type → compétence → potion).
-
-        Radar (nombre de potions par compétence).
-
-        Heatmap de cooccurrence (choix du nombre d’ingrédients).
-
-        Réseau (inventeurs – potions).
-
-    Affichage des données brutes filtrées.
-
-🧩 Difficultés rencontrées et solutions
-Difficulté	Solution
-Noms de feuilles variables	Fonction find_sheet() qui cherche un mot‑clé dans le nom de la feuille.
-Conversion des unités ambiguë	Analyse de la feuille unites pour déduire les facteurs 1, 7, 35, 105, 210. Choix final de convertir en onces car les prix catalogue semblent être à l’once.
-Bénéfices négatifs inexpliqués	Correction de la conversion : au lieu de multiplier par 210 (pincées), on divise par 210 (onces). Vérification sur quelques potions.
-Graphe de réseau qui plante (KeyError: 'pseudo')	Adaptation du code : le fichier liste_inventeurs_clean.csv ne contient pas de colonne pseudo. On utilise directement inventeur.
-Cooccurrence trop grande	On limite l’affichage aux 15 ingrédients les plus fréquents (curseur interactif).
-🚀 Lancement du projet
-Prérequis
-
-    Python 3.9 ou supérieur
-
-    Les bibliothèques listées dans requirements.txt
-
-Installation
-bash
-
-# 1. Cloner le dépôt (ou décompresser l'archive)
+```bash
+# 1. Cloner le dépôt
 git clone https://github.com/votre-compte/py-potion-craft-nom1-nom2.git
 cd py-potion-craft-nom1-nom2
 
-# 2. (Optionnel) Créer un environnement virtuel
+# 2. Créer et activer un environnement virtuel (recommandé)
 python -m venv .venv
-source .venv/bin/activate  # sur Windows : .venv\Scripts\activate
+source .venv/bin/activate        # Linux / macOS
+# .venv\Scripts\activate         # Windows
 
 # 3. Installer les dépendances
 pip install -r requirements.txt
+```
 
-Exécution
-bash
+### Exécution
 
-# 4. Lancer le pipeline de transformation (génère les CSV)
+```bash
+# 4. Générer les fichiers CSV (pipeline de transformation)
 python transformation.py
 
-# 5. Lancer l'application Streamlit
+# 5. Lancer le dashboard
 streamlit run app.py
+```
 
-L’application s’ouvre automatiquement dans ton navigateur.
-📁 Structure du projet
+L'application s'ouvre automatiquement dans votre navigateur.
 
-py-potion-craft-huicq-talboussouma/
+---
+
+## 📁 Structure du projet
+
+```
+py-potion-craft-nom1-nom2/
 ├── data/
-│   ├── potions-craft.xlsx                # Fichier source (Excel)
-│   ├── recettes.csv                      # Généré par transformation.py
-│   ├── potions_final.csv                 # Généré par transformation.py (table analytique)
-│   ├── cooccurrences.csv                 # Généré par transformation.py (matrice)
-│   ├── liste_inventeurs_clean.csv        # Généré par transformation.py (pour le graphe)
-│   ├── potions_competences.csv           # Généré par transformation.py (explosion)
-│   ├── *_clean.csv                       # Autres fichiers intermédiaires (nettoyage)
-│   └── ...                               # (peuvent être ignorés pour l'application finale)
+│   ├── potions-craft.xlsx          # Fichier source (Excel brut)
+│   ├── recettes.csv                # Format long : une ligne par (potion, ingrédient)
+│   ├── potions_final.csv           # Table analytique principale
+│   ├── cooccurrences.csv           # Matrice de cooccurrence des ingrédients
+│   ├── liste_inventeurs_clean.csv  # Données nettoyées pour le graphe réseau
+│   ├── potions_competences.csv     # Compétences explosées (une ligne par compétence)
+│   └── *_clean.csv                 # Fichiers intermédiaires (nettoyage)
 ├── scripts/
-│   ├── extraction.py                     # Exploration automatique des feuilles
-│   ├── nettoyage.py                      # Nettoyage générique
-│   ├── transformation.py                 # Restructuration et calculs métier
-│   └── analyse.py                        # Statistiques descriptives (optionnel)
-├── app.py                                # Dashboard Streamlit
-├── requirements.txt                      # Dépendances Python
-└── README.md                             # Ce document
+│   ├── extraction.py               # Exploration automatique des feuilles Excel
+│   ├── nettoyage.py                # Nettoyage générique des données
+│   ├── transformation.py           # Restructuration, conversions et calculs métier
+│   └── analyse.py                  # Statistiques descriptives (optionnel)
+├── app.py                          # Dashboard Streamlit
+├── requirements.txt                # Dépendances Python
+└── README.md
+```
+
+---
+
+## 🛠️ Architecture technique
+
+| Composant | Technologie | Justification |
+|---|---|---|
+| Exploration & nettoyage | Pandas | Lecture multi-feuilles, gestion des valeurs manquantes, transformations tabulaires |
+| Conversion des unités | Dictionnaire Python | Facteurs déduits de la feuille `unites` (1 Once = 210 Pincées) |
+| Calcul des coûts | Pandas + boucle | Quantité × facteur de conversion × prix unitaire à l'once |
+| Visualisations | Plotly Express & Graph Objects | Graphiques interactifs (zoom, survol, légendes), intégration native Streamlit |
+| Graphe de réseau | NetworkX + Plotly | NetworkX construit le graphe, Plotly gère le rendu interactif |
+| Dashboard | Streamlit | Transformation d'un script Python en application web sans HTML/CSS |
+| Versionning | Git & GitHub | Travail en équipe, traçabilité |
+
+---
+
+## 🔧 Pipeline de traitement
+
+### 1. Extraction (`scripts/extraction.py`)
+
+Parcourt toutes les feuilles du fichier Excel et produit un rapport automatique : dimensions, colonnes, types de données, valeurs manquantes. Permet de comprendre la structure sans rien coder en dur.
+
+### 2. Nettoyage (`scripts/nettoyage.py`)
+
+- Normalisation des noms de colonnes (suppression des espaces, remplacement des tirets par des underscores)
+- Remplacement des valeurs manquantes (`"Inconnu"` pour les chaînes, médiane pour les numériques)
+- Suppression des doublons
+- Export de chaque feuille nettoyée en CSV
+
+### 3. Transformation (`scripts/transformation.py`)
+
+- **Détection des feuilles par mot-clé** via `find_sheet()` — aucun nom codé en dur
+- **Format long** : une ligne par `(potion, ingrédient)` → `recettes.csv`
+- **Conversion des unités** vers l'once :
+
+  ```
+  1 Once = 210 Pincées = 30 Soufles = 6 Nuages = 2 Brumes
+  ```
+
+  ```python
+  unit_to_once = {
+      "Pincée": 1/210,
+      "Soufle": 7/210,
+      "Nuage":  35/210,
+      "Brume":  105/210,
+      "Once":   1,
+  }
+  ```
+
+- **Calcul du coût** : `quantité × conversion_once × prix_ingrédient`
+- **Calcul du bénéfice** : `prix_vente − coût`
+- **Explosion des compétences** : une potion peut avoir plusieurs compétences séparées par `;`
+- **Matrice de cooccurrence** : pour chaque paire d'ingrédients, nombre de potions où ils apparaissent ensemble
+- **Jointure** avec les inventeurs et les types de magie
+
+### 4. Dashboard (`app.py`)
+
+- Chargement des CSV finaux
+- Filtres en barre latérale (type de magie, inventeur)
+- 5 graphiques interactifs (voir [Fonctionnalités](#-présentation))
+- Affichage des données brutes filtrées
+
+---
+
+## 🧩 Difficultés rencontrées
+
+| Problème | Solution |
+|---|---|
+| Noms de feuilles variables selon les fichiers | Fonction `find_sheet()` avec recherche par mot-clé |
+| Conversion des unités ambiguë | Analyse de la feuille `unites` pour déduire les facteurs ; prix catalogue considérés à l'once |
+| Bénéfices négatifs inexpliqués | Correction de la conversion : division par 210 au lieu de multiplication ; vérification manuelle sur plusieurs potions |
+| `KeyError: 'pseudo'` dans le graphe réseau | `liste_inventeurs_clean.csv` sans colonne `pseudo` → utilisation directe de la colonne `inventeur` |
+| Matrice de cooccurrence illisible (trop d'ingrédients) | Limitation aux N ingrédients les plus fréquents, N étant réglable via un curseur interactif (défaut : 15) |
+
+---
+
+## 📦 Dépendances principales
+
+```
+pandas
+openpyxl
+streamlit
+plotly
+networkx
+```
+
+> Liste complète dans `requirements.txt`.
